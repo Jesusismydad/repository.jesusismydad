@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.jesusismydad" name="OurLord" version="0.0.1" provider-name="Jesusismydad">
+	<extension point="xbmc.addon.repository" name="OurLord">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/Jesusismydad/repository.jesusismydad/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Jesusismydad/repository.jesusismydad/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Jesusismydad/repository.jesusismydad/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">It hunts the internet for what your looking for.</summary>
+		<description lang="en">Rises from the dead, to give us paid for content.</description>
+		<genre>movies,tvshows,wizard,uk,usa</genre>
+	</extension>
+</addon>
