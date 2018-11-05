@@ -9,7 +9,7 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Thy will poop on your face</summary>
+		<summary lang="en">This addon will find you movies</summary>
 		<description lang="en">Enter and you will see</description>
 		<platform>all</platform>
 		<forum>http://www.noobsandnerds.com/support</forum>
