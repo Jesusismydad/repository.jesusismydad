@@ -11,7 +11,7 @@
 
 """
     SECTION 2:
-    This is where you'd put your license details, the GPL3 license 
+    This is where you'd put your license details, the GPL3 license
     is the most common to use as it makes it easy for others to fork
     and improve upon your code. If you're re-using others code ALWAYS
     check the license first, removal of licenses is NOT allowed and you
@@ -91,9 +91,9 @@ def Main_Menu():
 
 # Only show koding tutorials if debug mode is enabled in addon settings
     if debug=='true':
-        Add_Dir(name='KODING TUTORIALS', url='', mode='tutorials', folder=True, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'))
+        Add_Dir(name='KODING TUTORIALS', url='', mode='tutorials', folder=True, icon=os.path.join(art_path,'icon.jpg'), fanart=os.path.join(art_path,'fanart.jpg'))
 
-    Add_Dir(name='TEST DIALOG', url='{"my_text":"My First Add-on[CR]Woohooo!!!","my_desc":"test description"}', mode='testing', folder=False, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'))
+    Add_Dir(name='TEST DIALOG', url='{"my_text":"My First Add-on[CR]Woohooo!!!","my_desc":"test description"}', mode='testing', folder=False, icon=os.path.join(art_path,'icon.jpg'), fanart=os.path.join(art_path,'fanart.jpg'))
 
 # Once you've played with the above try uncommenting each of the following lines one by one.
 # After uncommenting a line re-run the add-on to see your changes take place.
@@ -120,9 +120,9 @@ def Test_Folder(url):
         dialog.ok('Test Mode','open_folder has been called with the url being "test_mode". When you click OK you should open into and empty folder - this is because folder=True in our Add_Dir()')
     else:
         dialog.ok('TRY THESE EXAMPLES','If you\'ve left the mode as the default you\'ll receive a message explaining the mode does not exist. Feel free to change this to a mode that does exist.')
-        Add_Dir(name='EXAMPLE FOLDER', url='', mode='changeme', folder=True, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'))
-        Add_Dir(name='EXAMPLE ITEM', url='', mode='changeme', folder=False, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'))
-        Add_Dir(name='EXAMPLE BAD FUNCTION', url='', mode='bad_function', folder=False, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'))
+        Add_Dir(name='EXAMPLE FOLDER', url='', mode='changeme', folder=True, icon=os.path.join(art_path,'icon.jpg'), fanart=os.path.join(art_path,'fanart.jpg'))
+        Add_Dir(name='EXAMPLE ITEM', url='', mode='changeme', folder=False, icon=os.path.join(art_path,'icon.jpg'), fanart=os.path.join(art_path,'fanart.jpg'))
+        Add_Dir(name='EXAMPLE BAD FUNCTION', url='', mode='bad_function', folder=False, icon=os.path.join(art_path,'icon.jpg'), fanart=os.path.join(art_path,'fanart.jpg'))
 #-----------------------------
 @route(mode="bad_function")
 def Bad_Function():
@@ -182,7 +182,7 @@ archive.org has a good library of public domain music and video files.
     if koding.Data_Type(content) == 'dict':
         xbmc.log(repr(content),2)
         playback = koding.Play_Video(video=content["url"], showbusy=True)
- 
+
 # It may be a plugin or direct url has been sent through, if so lets use the list_type variable
     elif not list_type.endswith('_dialog'):
         playback = koding.Play_Video(video=list_type, showbusy=True)
