@@ -98,7 +98,7 @@ def Main_Menu():
 # Once you've played with the above try uncommenting each of the following lines one by one.
 # After uncommenting a line re-run the add-on to see your changes take place.
 
-     #Add_Dir(name='OPEN FOLDER - TEST MODE', url='test_mode', mode='open_folder', folder=True, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'))
+     Add_Dir(name='OPEN FOLDER - TEST MODE', url='test_mode', mode='open_folder', folder=True, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'))
      #Add_Dir(name='OPEN FOLDER - NO URL', url='', mode='open_folder', folder=True, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'))
      #Add_Dir(name='VIDEO EXAMPLES', url='', mode='video_examples', folder=True, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'), description='A couple of test videos for you to look at.', content_type='video')
      #Add_Dir(name='MUSIC EXAMPLE', url='', mode='music_examples', folder=True, icon=os.path.join(art_path,'icon.png'), fanart=os.path.join(art_path,'fanart.jpg'),content_type='song')
