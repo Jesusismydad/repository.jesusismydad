@@ -108,9 +108,9 @@ def Main_Menu():
 #-----------------------------
 def Test_function():
     title  = 'Search me..'
-    root   = 'special://userdata/addon_data/plugin.video.Yoda/Movies'
+    root   = 'special://home/userdata/addon_data/plugin.video.Yoda/Movies'
     folder = koding.Browse_To_Folder(header=title, path=root)
-    dialog.ok('FOLDER DETAILS','Folder path: [COLOR=dodgerblue]%s[/COLOR]'%folder)  
+    dialog.ok('FOLDER DETAILS','Folder path: [COLOR=dodgerblue]%s[/COLOR]'%folder)
 #-----------------------------
 @route(mode="open_folder", args=["url"])
 def Test_Folder(url):
